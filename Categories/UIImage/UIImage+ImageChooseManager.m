@@ -10,6 +10,7 @@
 
 #import "UIImage+ImageChooseManager.h"
 #import <objc/runtime.h>
+#import "UIDevice+DeviceValidate.h"
 
 static const char *controllerKey = "controllerKey";
 
@@ -83,7 +84,7 @@ static const char *controllerKey = "controllerKey";
 #pragma mark - MessageToolViewDelegate method helper
 - (void)startCarmeraWithController:(UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>*)controller
 {
-    if (![InCommonUse isDeviceCameraAvailable]) {
+    if (![UIDevice isDeviceCameraAvailable]) {
         UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil message:@"相机不可用" delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
         [alert show];
         return;
@@ -101,7 +102,7 @@ static const char *controllerKey = "controllerKey";
 
 - (void)startPhotoLibararyWithController:(UIViewController<UINavigationControllerDelegate,UIImagePickerControllerDelegate>*)controller
 {
-    if (![InCommonUse isPhotoLibraryAvailable]) {
+    if (![UIDevice isPhotoLibraryAvailable]) {
         UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil message:@"相册不可用" delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
         [alert show];
         return;

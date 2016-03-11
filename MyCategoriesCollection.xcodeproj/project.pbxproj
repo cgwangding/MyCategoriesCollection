@@ -33,7 +33,15 @@
 		DC7369DA1C90024D006A7D40 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7369BD1C90024D006A7D40 /* UIView+Extension.m */; };
 		DC7369DB1C90024D006A7D40 /* UIView+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7369BF1C90024D006A7D40 /* UIView+Hook.m */; };
 		DC7369DD1C90024D006A7D40 /* UIView+PhoneCall.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7369C31C90024D006A7D40 /* UIView+PhoneCall.m */; };
-		DC7369DF1C90024D006A7D40 /* UIViewController+RefreshExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7369C81C90024D006A7D40 /* UIViewController+RefreshExtension.m */; };
+		DC7369E21C903135006A7D40 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7369E11C903135006A7D40 /* NSString+AES.m */; };
+		DC74C7DE1C910BA100B7EF02 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC74C7DD1C910BA100B7EF02 /* AudioToolbox.framework */; };
+		DC74C7E01C910BAF00B7EF02 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC74C7DF1C910BAF00B7EF02 /* AVFoundation.framework */; };
+		DC74C7E21C910BB700B7EF02 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC74C7E11C910BB700B7EF02 /* AssetsLibrary.framework */; };
+		DC74C7EB1C910CED00B7EF02 /* UIDevice+DeviceValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74C7EA1C910CED00B7EF02 /* UIDevice+DeviceValidate.m */; };
+		DC74C7ED1C910D8000B7EF02 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC74C7EC1C910D8000B7EF02 /* CoreLocation.framework */; };
+		DC74C7F01C910E2600B7EF02 /* NSString+FormmatDate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74C7EF1C910E2600B7EF02 /* NSString+FormmatDate.m */; };
+		DC74C7F31C91514300B7EF02 /* UIImage+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74C7F21C91514300B7EF02 /* UIImage+QRCode.m */; };
+		DCCEC5881C92956000878A3B /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = DCCEC5871C92956000878A3B /* qq.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,8 +95,22 @@
 		DC7369BF1C90024D006A7D40 /* UIView+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hook.m"; sourceTree = "<group>"; };
 		DC7369C21C90024D006A7D40 /* UIView+PhoneCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PhoneCall.h"; sourceTree = "<group>"; };
 		DC7369C31C90024D006A7D40 /* UIView+PhoneCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PhoneCall.m"; sourceTree = "<group>"; };
-		DC7369C71C90024D006A7D40 /* UIViewController+RefreshExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RefreshExtension.h"; sourceTree = "<group>"; };
-		DC7369C81C90024D006A7D40 /* UIViewController+RefreshExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RefreshExtension.m"; sourceTree = "<group>"; };
+		DC7369E01C903135006A7D40 /* NSString+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		DC7369E11C903135006A7D40 /* NSString+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		DC74C7DD1C910BA100B7EF02 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DC74C7DF1C910BAF00B7EF02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC74C7E11C910BB700B7EF02 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DC74C7E31C910C2700B7EF02 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		DC74C7E51C910C2F00B7EF02 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DC74C7E71C910C4200B7EF02 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		DC74C7E91C910CED00B7EF02 /* UIDevice+DeviceValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DeviceValidate.h"; sourceTree = "<group>"; };
+		DC74C7EA1C910CED00B7EF02 /* UIDevice+DeviceValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DeviceValidate.m"; sourceTree = "<group>"; };
+		DC74C7EC1C910D8000B7EF02 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC74C7EE1C910E2600B7EF02 /* NSString+FormmatDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FormmatDate.h"; sourceTree = "<group>"; };
+		DC74C7EF1C910E2600B7EF02 /* NSString+FormmatDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FormmatDate.m"; sourceTree = "<group>"; };
+		DC74C7F11C91514300B7EF02 /* UIImage+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCode.h"; sourceTree = "<group>"; };
+		DC74C7F21C91514300B7EF02 /* UIImage+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCode.m"; sourceTree = "<group>"; };
+		DCCEC5871C92956000878A3B /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +118,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC74C7ED1C910D8000B7EF02 /* CoreLocation.framework in Frameworks */,
+				DC74C7E21C910BB700B7EF02 /* AssetsLibrary.framework in Frameworks */,
+				DC74C7E01C910BAF00B7EF02 /* AVFoundation.framework in Frameworks */,
+				DC74C7DE1C910BA100B7EF02 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +131,14 @@
 		DC7369691C90022C006A7D40 = {
 			isa = PBXGroup;
 			children = (
+				DC74C7EC1C910D8000B7EF02 /* CoreLocation.framework */,
+				DC74C7E71C910C4200B7EF02 /* CoreAudioKit.framework */,
+				DC74C7E51C910C2F00B7EF02 /* CoreMedia.framework */,
+				DC74C7E31C910C2700B7EF02 /* MediaToolbox.framework */,
+				DC74C7E11C910BB700B7EF02 /* AssetsLibrary.framework */,
+				DC74C7DF1C910BAF00B7EF02 /* AVFoundation.framework */,
+				DC74C7DD1C910BA100B7EF02 /* AudioToolbox.framework */,
+				DCCEC5871C92956000878A3B /* qq.png */,
 				DC73698C1C90024D006A7D40 /* Categories */,
 				DC7369741C90022C006A7D40 /* MyCategoriesCollection */,
 				DC7369731C90022C006A7D40 /* Products */,
@@ -191,6 +225,10 @@
 				DC7369971C90024D006A7D40 /* NSString+MD5.m */,
 				DC7369981C90024D006A7D40 /* NSString+Validate.h */,
 				DC7369991C90024D006A7D40 /* NSString+Validate.m */,
+				DC7369E01C903135006A7D40 /* NSString+AES.h */,
+				DC7369E11C903135006A7D40 /* NSString+AES.m */,
+				DC74C7EE1C910E2600B7EF02 /* NSString+FormmatDate.h */,
+				DC74C7EF1C910E2600B7EF02 /* NSString+FormmatDate.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -247,6 +285,8 @@
 			children = (
 				DC7369AC1C90024D006A7D40 /* UIDevice+DeviceType.h */,
 				DC7369AD1C90024D006A7D40 /* UIDevice+DeviceType.m */,
+				DC74C7E91C910CED00B7EF02 /* UIDevice+DeviceValidate.h */,
+				DC74C7EA1C910CED00B7EF02 /* UIDevice+DeviceValidate.m */,
 			);
 			path = UIDevice;
 			sourceTree = "<group>";
@@ -262,6 +302,8 @@
 				DC7369B41C90024D006A7D40 /* UIImage+ImageChooseManager.m */,
 				DC7369B51C90024D006A7D40 /* UIImage+ImageFromColor.h */,
 				DC7369B61C90024D006A7D40 /* UIImage+ImageFromColor.m */,
+				DC74C7F11C91514300B7EF02 /* UIImage+QRCode.h */,
+				DC74C7F21C91514300B7EF02 /* UIImage+QRCode.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -298,8 +340,6 @@
 		DC7369C41C90024D006A7D40 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DC7369C71C90024D006A7D40 /* UIViewController+RefreshExtension.h */,
-				DC7369C81C90024D006A7D40 /* UIViewController+RefreshExtension.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -364,6 +404,7 @@
 				DC7369851C90022C006A7D40 /* LaunchScreen.storyboard in Resources */,
 				DC7369821C90022C006A7D40 /* Assets.xcassets in Resources */,
 				DC7369801C90022C006A7D40 /* Main.storyboard in Resources */,
+				DCCEC5881C92956000878A3B /* qq.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC74C7F31C91514300B7EF02 /* UIImage+QRCode.m in Sources */,
 				DC7369C91C90024D006A7D40 /* NSDate+Category.m in Sources */,
 				DC7369DB1C90024D006A7D40 /* UIView+Hook.m in Sources */,
 				DC73697D1C90022C006A7D40 /* ViewController.m in Sources */,
@@ -386,17 +428,19 @@
 				DC7369D21C90024D006A7D40 /* UIColor+flat.m in Sources */,
 				DC7369CD1C90024D006A7D40 /* NSString+Validate.m in Sources */,
 				DC7369D91C90024D006A7D40 /* UIView+AEBHandyAutoLayout.m in Sources */,
+				DC7369E21C903135006A7D40 /* NSString+AES.m in Sources */,
 				DC7369D51C90024D006A7D40 /* UIImage+Extension.m in Sources */,
 				DC7369CB1C90024D006A7D40 /* NSObject+Validate.m in Sources */,
 				DC73697A1C90022C006A7D40 /* AppDelegate.m in Sources */,
 				DC7369D61C90024D006A7D40 /* UIImage+HeaderMontage.m in Sources */,
-				DC7369DF1C90024D006A7D40 /* UIViewController+RefreshExtension.m in Sources */,
 				DC7369D11C90024D006A7D40 /* UIColor+Extension.m in Sources */,
 				DC7369CE1C90024D006A7D40 /* NSURL+MediaDuration.m in Sources */,
 				DC7369771C90022C006A7D40 /* main.m in Sources */,
 				DC7369CC1C90024D006A7D40 /* NSString+MD5.m in Sources */,
 				DC7369CF1C90024D006A7D40 /* UIApplication+EnablePush.m in Sources */,
+				DC74C7F01C910E2600B7EF02 /* NSString+FormmatDate.m in Sources */,
 				DC7369D31C90024D006A7D40 /* UIControl+TouchEventInterval.m in Sources */,
+				DC74C7EB1C910CED00B7EF02 /* UIDevice+DeviceValidate.m in Sources */,
 				DC7369DD1C90024D006A7D40 /* UIView+PhoneCall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,6 +590,7 @@
 				DC73698B1C90022C006A7D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

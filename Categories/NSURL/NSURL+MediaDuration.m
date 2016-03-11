@@ -9,6 +9,7 @@
 #import "NSURL+MediaDuration.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 
 @implementation NSURL (MediaDuration)
 
@@ -18,7 +19,7 @@
     [audioAsset loadValuesAsynchronouslyForKeys:@[@"duration"] completionHandler:^{
         CMTime audioDuration = audioAsset.duration;
         float audioDurationSeconds = CMTimeGetSeconds(audioDuration);
-        DDLog(@"duaration: %f",audioDurationSeconds);
+//        DDLog(@"duaration: %f",audioDurationSeconds);
         if (mediaDuation) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 mediaDuation(audioDurationSeconds);
