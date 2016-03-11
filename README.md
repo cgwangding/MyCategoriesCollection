@@ -13,6 +13,8 @@
 #
 4、UIControl+TouchEventInterval，可设置控件的点击响应间隔，防止多次重复点击
 #
-5、UIImage+HeaderMontage，凭借图片成一个头像，类似QQ讨论组#
-6、UIImage+ImageChooseManager，可直接弹出选择图片，可选择图库或者相机#
+5、UIImage+HeaderMontage，凭借图片成一个头像，类似QQ讨论组
+
+6、UIImage+ImageChooseManager，可直接弹出选择图片，可选择图库或者相机
+
 7、UIImage+QRCode，多种方式生成二维码。
